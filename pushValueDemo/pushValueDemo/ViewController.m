@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    测试一下提交到github
     self.title = @"第一个界面的title";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"push" style:UIBarButtonItemStylePlain target:self action:@selector(pushToBVC)];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addTheValueFromBVC:) name:@"通知传值" object:nil];
